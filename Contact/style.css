@@ -1,0 +1,56 @@
+
+body {
+  padding-top: 3rem;
+  margin:0;
+  padding:0;
+  color: #5a5a5a;
+    }
+
+
+.section1 {
+  margin-top: 100px;
+  margin-bottom: 28px;
+}
+
+.navbar-nav > li{
+  padding-left:20px;
+  padding-right:20px;
+}
+
+
+
+/* Sign In page */
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
+}
+.h-custom {
+height: calc(100% - 73px);
+}
+@media (max-width: 450px) {
+.h-custom {
+height: 100%;
+}
+}
+.Googleicon{
+  color: red;
+}
+.form_error {
+  border-color: #ee5f5b;
+  border: 1px solid #ee5f5b !important;
+}
+.locationcolor{
+  color: #da3232ad;
+}
+.dropdown-menu a:hover {
+  background-color:rgb(13, 82, 13);
+}
+.navbar,
+.dropdown-menu,
+.footerColor{
+  background-color: rgba(33,36,41,255);
+}
+
